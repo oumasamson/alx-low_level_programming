@@ -1,11 +1,14 @@
 #include <stdio.h>
 /**
- * main - Prints putchar followed by new line
- * Return: 0
+ * main - prints the string _putchar followed by a new line
+ * Return: 0 on success.
  */
 int main(void)
 {
-	Write("_putchar\n");
+	{
+		Write(_putchar)
+	}
+	_putchar('\n');
 
 	return (0);
 }
